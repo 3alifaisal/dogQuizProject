@@ -1,0 +1,57 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-areas: ". . . . . . . . . ."
+                         ". . . m m m m . . ."
+                         ". . . m m m m . . ."
+                         ". . . m m m m . . ."
+                         ". . . m m m m . . ."
+                         ". . . . . . . . . ."
+                        ;
+
+}
+.quiz_window{
+    grid-area: m;
+}
+.overlay{
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(204, 213, 219, 0.92);
+        /* Foggy blue background */
+        z-index: 1;
+        opacity: 0.3;
+        pointer-events: none;
+}
+
+figure{
+    position: relative;
+    background-color: beige;
+    height: 8rem;
+    
+}
+
+figure canvas{
+    position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        image-rendering: pixelated;
+        filter: brightness(1.2) contrast(1.5) saturate(1.5) hue-rotate(-30deg);
+ 
+        
+            }
+figure::before{
+    filter: blur(1.1px);
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: repeating-linear-gradient(0deg, #0006 0%, #0006 4%, transparent 4%, transparent 96%, #0006 96%, #0006 100%),
+            repeating-linear-gradient(90deg, #0006 0%, #0006 4%, transparent 4%, transparent 96%, #0006 96%, #0006 100%);
+        background-size: 10px 10px;
+}

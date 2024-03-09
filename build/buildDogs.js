@@ -1,5 +1,5 @@
-const assignDogName = require("./addDog.js")
-const addDescriptionToDog = require("./addDescription.js")
+import assignDogName from "./addDog.js";
+import addDescriptionToDog from "./addDescription.js";
 
 async function buildDog(code, name, description) {
     await assignDogName(name, code);

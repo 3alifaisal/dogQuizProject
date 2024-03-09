@@ -1,8 +1,8 @@
-const fs = require('fs');
+import { readFileSync, writeFileSync } from 'fs';
 
- function addDescriptionToDog(name, description) {
+ export function addDescriptionToDog(name, description) {
     // Load existing dog combinations from file
-    const existingDogs = JSON.parse(fs.readFileSync('dogCombinations.json', 'utf-8'));
+    const existingDogs = JSON.parse(readFileSync('dogCombinations.json', 'utf-8'));
 
     // Find the dog with the specified name
     const targetDog = existingDogs.find((dog) => {
@@ -29,11 +29,11 @@ const fs = require('fs');
             }
         }
         // Save the updated dog combinations to the file
-        fs.writeFileSync('dogCombinations.json', JSON.stringify(existingDogs, null, 2));
+        writeFileSync('dogCombinations.json', JSON.stringify(existingDogs, null, 2));
 
         console.log(`Description added/updated for dog "${name}".`);
     } else {
         console.log(`No dog found with the name "${name}".`);
     }
 }
-module.exports = addDescriptionToDog
+

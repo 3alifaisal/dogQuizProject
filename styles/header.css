@@ -1,0 +1,42 @@
+
+
+header{
+  
+    font-family: 'Pixelify Sans', sans-serif;
+    word-spacing: 2.5px;
+   
+    font-size: 49px;
+    z-index: 10;
+    display: block;
+    height: 70px;
+    padding-bottom: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+header span {
+   
+
+        border-width: 0px 8px 12px 6px;
+        /* top right bottom left */
+        padding: 0 20px;
+        margin-left:3px ;
+        border-style: dashed;
+        border-color: #000000;
+   
+}
+
+header h1::after,
+header h1::before{
+    content: "🐾🐾🐾🐾";
+    margin: 0 20px;
+    letter-spacing: 40px;
+}
+header h1::after{
+    margin-left: 40px;
+    margin-right: 10px;
+}

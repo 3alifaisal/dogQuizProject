@@ -1,8 +1,8 @@
-const fs = require('fs');
+import { readFileSync, writeFileSync } from 'fs';
 
  async function assignDogName(name, code) {
     // Load existing dog combinations from file
-    const existingDogs = JSON.parse(fs.readFileSync('dogCombinations.json', 'utf-8'));
+    const existingDogs = JSON.parse(readFileSync('dogCombinations.json', 'utf-8'));
 
     // Find the dog with the specified code combination
     const targetDog = existingDogs.find((dog) => dog.code === code);
@@ -28,7 +28,7 @@ const fs = require('fs');
         }
 
         // Save the updated dog combinations to the file
-        fs.writeFileSync('dogCombinations.json', JSON.stringify(existingDogs, null, 2));
+        writeFileSync('dogCombinations.json', JSON.stringify(existingDogs, null, 2));
 
         console.log(`Dog "${name}" assigned successfully.`);
     } else {

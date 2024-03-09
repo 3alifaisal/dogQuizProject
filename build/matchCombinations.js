@@ -1,6 +1,6 @@
 // after adding the dog its also important to add the other combinations to avoid gaps 
-const fs = require("fs")
-const existingDogs = JSON.parse(fs.readFileSync('dogCombinations.json', 'utf-8'))
+import { readFileSync, writeFileSync } from 'fs';
+const existingDogs = JSON.parse(readFileSync('dogCombinations.json', 'utf-8'))
 const existingDogsCopy = JSON.parse(JSON.stringify(existingDogs));
 
 
@@ -36,4 +36,4 @@ function fillCombinations() {
 fillCombinations()
 console.log(existingDogsCopy);
 
-fs.writeFileSync('dogCombinations.json', JSON.stringify(existingDogsCopy, null, 2));
+writeFileSync('dogCombinations.json', JSON.stringify(existingDogsCopy, null, 2));
