@@ -1,5 +1,5 @@
 export const uniqueDogSet = new Set();
-
+export const originalImages = []
 // Function to fetch a single random image
 const fetchRandomImage = async () => {
     const response = await fetch("https://dog.ceo/api/breeds/image/random");
@@ -10,7 +10,8 @@ const fetchRandomImage = async () => {
 const createAndAppendImage = (data, mainSection) => {
     const image = new Image();
     image.src = data.message;
-
+   
+    originalImages.push(image);
     const imageWrapper = document.createElement("figure");
     const pixelCanvas = document.createElement("canvas");
     imageWrapper.appendChild(pixelCanvas);
@@ -23,6 +24,7 @@ const createAndAppendImage = (data, mainSection) => {
     // Use image.onload as needed
     image.onload = () => {
         pixelCanvasContext.drawImage(image, 0, 0, pixelCanvas.width, pixelCanvas.height);
+   
     };
 
     // Use image.onerror as needed
@@ -54,7 +56,7 @@ export const loadRandomImagesConcurrently = async (count = 44) => {
         });
 
         // Wait for all fetch operations to complete
-        const imageDataArray = await Promise.all(imagePromises);
+        const imageDataArray = await Promise.allSettled(imagePromises);
 
         // Create and append images to the DOM
         imageDataArray.forEach(data => createAndAppendImage(data, mainSection));
@@ -63,7 +65,4 @@ export const loadRandomImagesConcurrently = async (count = 44) => {
     }
 };
 console.log(uniqueDogSet)
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Initially load random images after DOM content is loaded
-//     loadRandomImagesConcurrently();
-// });
+console.log(originalImages)

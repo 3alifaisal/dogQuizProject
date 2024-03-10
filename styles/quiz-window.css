@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     filter:drop-shadow(0 0 10px 10px rgba(18, 0, 0, 0.5));
      z-index: 4;
     box-shadow: 0 0 50px 50px rgba(39, 1, 1, 0.5);
@@ -22,10 +22,12 @@
     line-height: 1.5;
 
 }
-.quiz_window h2{
+.quiz_window h2,
+.quiz_window button {
     font-size: 45px;
     border-width: 4px 8px 12px 6px;
     padding: 0 10px;
+    margin: 20px 0;
         /* top right bottom left */
         border-style:dashed;
         border-color: #111112;
@@ -39,9 +41,9 @@
     letter-spacing: 10px;
 }
 
-.quiz_window button:hover>h2{
+.quiz_window button:hover{
   animation: button-border 1s ease-in-out;
-  
+
  
   
 }
@@ -63,3 +65,4 @@
     border-width: 4px 8px 12px 6px;
  }
 }
+
