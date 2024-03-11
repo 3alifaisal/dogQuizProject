@@ -7,15 +7,17 @@ const fetchRandomImage = async () => {
 };
 
 // Function to create an image element from the data and append it to the DOM
-const createAndAppendImage = (data, mainSection) => {
+const createAndAppendImage = (data, index) => {
+  
     const image = new Image();
     image.src = data.message;
    
     originalImages.push(image);
-    const imageWrapper = document.createElement("figure");
+    const imageWrappers = document.querySelectorAll("figure");
     const pixelCanvas = document.createElement("canvas");
-    imageWrapper.appendChild(pixelCanvas);
-    mainSection.appendChild(imageWrapper);
+    imageWrappers[index].appendChild(pixelCanvas);
+    imageWrappers[index].style.setProperty('--before-opacity', "1")
+   
 
     const pixelCanvasContext = pixelCanvas.getContext('2d');
     pixelCanvas.width = 15;
@@ -36,7 +38,7 @@ const createAndAppendImage = (data, mainSection) => {
 // Function to load random images concurrently with uniqueness check
 export const loadRandomImagesConcurrently = async (count = 44) => {
     try {
-        const mainSection = document.querySelector("main");
+   
 
         // Map to store unique dog requests and their indices
        
@@ -56,10 +58,10 @@ export const loadRandomImagesConcurrently = async (count = 44) => {
         });
 
         // Wait for all fetch operations to complete
-        const imageDataArray = await Promise.allSettled(imagePromises);
+        const imageDataArray = await Promise.all(imagePromises);
 
         // Create and append images to the DOM
-        imageDataArray.forEach(data => createAndAppendImage(data, mainSection));
+        imageDataArray.forEach((data,index) => createAndAppendImage(data, index));
     } catch (error) {
         console.error("Error loading images:", error);
     }

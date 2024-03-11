@@ -6,7 +6,7 @@ const alreadyResetDogs = new Set()
 
 export const resetImages = (count) =>{
   
-    const resetCount = Math.min(count, originalImages.length);
+    const resetCount = Math.min(count, originalImages.length-alreadyResetDogs.size);
     let images = document.querySelectorAll("main figure canvas")
    for(let i = 0; i < resetCount; i++){
 

@@ -10,10 +10,10 @@ main{
                         ;
 
 }
-.quiz_window{
+main .quiz_window{
     grid-area: m;
 }
-.overlay{
+main .overlay{
     position: fixed;
         top: 0;
         left: 0;
@@ -26,14 +26,14 @@ main{
         pointer-events: none;
 }
 
-figure{
+main figure{
     position: relative;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     height: 8rem;
-    
+    --before-opacity: 0;
 }
 
-figure canvas{
+main figure canvas{
     position: absolute;
         top: 0;
         left: 0;
@@ -41,11 +41,11 @@ figure canvas{
         height: 100%;
         image-rendering: pixelated;
         filter: brightness(1.2) contrast(1.5) saturate(1.5) hue-rotate(-30deg);
- 
         
             }
-figure::before{
-    filter: blur(1.1px);
+main figure::before{
+        opacity: var(--before-opacity);
+        filter: blur(1.1px);
         content: "";
         position: absolute;
         width: 100%;

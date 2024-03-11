@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 
- async function assignDogName(name, code) {
+ export async function assignDogName(name, code) {
     // Load existing dog combinations from file
     const existingDogs = JSON.parse(readFileSync('dogCombinations.json', 'utf-8'));
 
@@ -36,4 +36,3 @@ import { readFileSync, writeFileSync } from 'fs';
     }
 }
 
-module.exports = assignDogName

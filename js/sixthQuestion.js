@@ -2,7 +2,7 @@ import { nextQuestion } from "./selectedAnswer.js";
 
 import { resetImages } from "./resetimages.js";
 import { seventhQuestionTemplate } from "./seventhQuestion.js";
-import { secondQuestionTemplate } from "./secondQuestion.js";
+
 
 export function sixthQuestionTemplate() {
     const quizWindow = document.querySelector("main section.quiz_window");
@@ -29,7 +29,7 @@ export function sixthQuestionTemplate() {
     newbutton.addEventListener("click", () => {
         if (nextQuestion()) {
             resetImages(6);
-            secondQuestionTemplate();
+           seventhQuestionTemplate()
         }
     })
 }
