@@ -1,4 +1,4 @@
-import { loadRandomImagesConcurrently } from "./images.js";
+import { loadAndAppendImages } from "./images.js";
 import { firstQuestionTemplate } from "./firstQuestion.js";
 
 
@@ -8,7 +8,7 @@ const pageButton = document.querySelector("main section button");
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initially load random images after DOM content is loaded
-    loadRandomImagesConcurrently();
+    loadAndAppendImages();
 });
 
 pageButton.addEventListener("click", () => {

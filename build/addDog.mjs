@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
  export async function assignDogName(name, code) {
     // Load existing dog combinations from file
-    const existingDogs = JSON.parse(readFileSync('dogCombinations.json', 'utf-8'));
+    const existingDogs = JSON.parse(readFileSync('data/dogCombinations.json', 'utf-8'));
 
     // Find the dog with the specified code combination
     const targetDog = existingDogs.find((dog) => dog.code === code);
@@ -28,7 +28,7 @@ import { readFileSync, writeFileSync } from 'fs';
         }
 
         // Save the updated dog combinations to the file
-        writeFileSync('dogCombinations.json', JSON.stringify(existingDogs, null, 2));
+        writeFileSync('data/dogCombinations.json', JSON.stringify(existingDogs, null, 2));
 
         console.log(`Dog "${name}" assigned successfully.`);
     } else {

@@ -1,4 +1,4 @@
-const fs = require('fs');
+import { readFileSync, writeFileSync } from 'fs';
 
 // Define options
 const companionship = ['A', 'B', 'C'];
@@ -39,6 +39,6 @@ for (const c1 of companionship) {
 allCombinations.sort((a, b) => a.codeIndex - b.codeIndex);
 
 // Write combinations to a file
-fs.writeFileSync('dogCombinations.json', JSON.stringify(allCombinations, null, 2));
+writeFileSync('data/dogCombinations.json', JSON.stringify(allCombinations, null, 2));
 
 console.log('Dog combinations generated and saved to dogCombinations.json');

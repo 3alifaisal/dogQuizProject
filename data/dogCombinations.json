@@ -4,10 +4,10 @@
     "codeIndex": 1111111,
     "id": 1,
     "name": [
-      "bichon frise",
+      "frise",
       "keeshond",
       "maltese",
-      "miniature pinscher"
+      "pinscher"
     ],
     "description": [
       "Bichon Frise, a cheerful and affectionate dog breed with a playful personality. They are extremely affectionate companions, suitable for a small apartment, and have a low to moderate activity level. Bichon Frises exhibit minimal barking and are generally suitable for families with children. Grooming is consistent, making them suitable for novice owners.",
@@ -255,9 +255,9 @@
     "codeIndex": 1113222,
     "id": 24,
     "name": [
-      "cardigan corgi",
+      "corgi",
       "papillon",
-      "japanese spitz"
+      "spitz"
     ],
     "description": [
       "Cardigan Corgi, an affectionate and intelligent dog breed with a sturdy build and distinctive features. Well-suited for small apartments, it requires low to moderate grooming and is suitable for families with children.",
@@ -270,9 +270,9 @@
     "codeIndex": 1121111,
     "id": 25,
     "name": [
-      "cardigan corgi",
+      "corgi",
       "papillon",
-      "japanese spitz"
+      "spitz"
     ],
     "description": [
       "Cardigan Corgi, an affectionate and intelligent dog breed with a sturdy build and distinctive features. Well-suited for small apartments, it requires low to moderate grooming and is suitable for families with children.",
@@ -285,9 +285,9 @@
     "codeIndex": 1121112,
     "id": 26,
     "name": [
-      "cardigan corgi",
+      "corgi",
       "papillon",
-      "japanese spitz"
+      "spitz"
     ],
     "description": [
       "Cardigan Corgi, an affectionate and intelligent dog breed with a sturdy build and distinctive features. Well-suited for small apartments, it requires low to moderate grooming and is suitable for families with children.",
@@ -300,9 +300,9 @@
     "codeIndex": 1121121,
     "id": 27,
     "name": [
-      "cardigan corgi",
+      "corgi",
       "papillon",
-      "japanese spitz"
+      "spitz"
     ],
     "description": [
       "Cardigan Corgi, an affectionate and intelligent dog breed with a sturdy build and distinctive features. Well-suited for small apartments, it requires low to moderate grooming and is suitable for families with children.",
@@ -315,9 +315,9 @@
     "codeIndex": 1121122,
     "id": 28,
     "name": [
-      "cardigan corgi",
+      "corgi",
       "papillon",
-      "japanese spitz"
+      "spitz"
     ],
     "description": [
       "Cardigan Corgi, an affectionate and intelligent dog breed with a sturdy build and distinctive features. Well-suited for small apartments, it requires low to moderate grooming and is suitable for families with children.",
@@ -330,9 +330,9 @@
     "codeIndex": 1121211,
     "id": 29,
     "name": [
-      "cardigan corgi",
+      "corgi",
       "papillon",
-      "japanese spitz"
+      "spitz"
     ],
     "description": [
       "Cardigan Corgi, an affectionate and intelligent dog breed with a sturdy build and distinctive features. Well-suited for small apartments, it requires low to moderate grooming and is suitable for families with children.",
@@ -661,63 +661,63 @@
     "code": "ABACBAA",
     "codeIndex": 1213211,
     "id": 69,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABACBAB",
     "codeIndex": 1213212,
     "id": 70,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABACBBA",
     "codeIndex": 1213221,
     "id": 71,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABACBBB",
     "codeIndex": 1213222,
     "id": 72,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABBAAAA",
     "codeIndex": 1221111,
     "id": 73,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABBAAAB",
     "codeIndex": 1221112,
     "id": 74,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABBAABA",
     "codeIndex": 1221121,
     "id": 75,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABBAABB",
     "codeIndex": 1221122,
     "id": 76,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
     "code": "ABBABAA",
     "codeIndex": 1221211,
     "id": 77,
-    "name": "australian cattledog",
+    "name": "cattledog",
     "description": "Australian Cattle Dog, an intelligent and highly active companion. Suited for active families with yards, offering loyalty and herding instincts, ideal for experienced owners."
   },
   {
@@ -808,7 +808,7 @@
       "pyrenees",
       "curly retriever",
       "flat-coated retriever",
-      "italian segugio",
+      "segugio",
       "english setter",
       "gordon setter",
       "irish setter",
@@ -819,7 +819,7 @@
       "irish spaniel",
       "sussex spaniel",
       "welsh spaniel",
-      "english springer",
+      "springer",
       "border terrier",
       "cairn terrier",
       "patterdale terrier",
@@ -827,9 +827,9 @@
       "tibetan terrier",
       "tervuren",
       "vizsla",
-      "spanish waterdog",
+      "waterdog",
       "weimaraner",
-      "irish wolfhound"
+      "wolfhound"
     ],
     "description": [
       "Australian Shepherd, an affectionate and high-energy dog ideal for active families with yards. Grooming demands moderate experience, promising a devoted and intelligent companion.",
@@ -891,7 +891,7 @@
       "pyrenees",
       "curly retriever",
       "flat-coated retriever",
-      "italian segugio",
+      "segugio",
       "english setter",
       "gordon setter",
       "irish setter",
@@ -902,7 +902,7 @@
       "irish spaniel",
       "sussex spaniel",
       "welsh spaniel",
-      "english springer",
+      "springer",
       "border terrier",
       "cairn terrier",
       "patterdale terrier",
@@ -910,9 +910,9 @@
       "tibetan terrier",
       "tervuren",
       "vizsla",
-      "spanish waterdog",
+      "waterdog",
       "weimaraner",
-      "irish wolfhound"
+      "wolfhound"
     ],
     "description": [
       "Australian Shepherd, an affectionate and high-energy dog ideal for active families with yards. Grooming demands moderate experience, promising a devoted and intelligent companion.",
@@ -979,28 +979,28 @@
     "code": "ABBBBBA",
     "codeIndex": 1222221,
     "id": 87,
-    "name": "norwegian buhund",
+    "name": "buhund",
     "description": "Norwegian Buhund is an affectionate, moderately active companion with moderate grooming needs. Suited for families with older children in houses with yards, offering loyalty and vitality."
   },
   {
     "code": "ABBBBBB",
     "codeIndex": 1222222,
     "id": 88,
-    "name": "norwegian buhund",
+    "name": "buhund",
     "description": "Norwegian Buhund is an affectionate, moderately active companion with moderate grooming needs. Suited for families with older children in houses with yards, offering loyalty and vitality."
   },
   {
     "code": "ABBCAAA",
     "codeIndex": 1223111,
     "id": 89,
-    "name": "norwegian buhund",
+    "name": "buhund",
     "description": "Norwegian Buhund is an affectionate, moderately active companion with moderate grooming needs. Suited for families with older children in houses with yards, offering loyalty and vitality."
   },
   {
     "code": "ABBCAAB",
     "codeIndex": 1223112,
     "id": 90,
-    "name": "norwegian buhund",
+    "name": "buhund",
     "description": "Norwegian Buhund is an affectionate, moderately active companion with moderate grooming needs. Suited for families with older children in houses with yards, offering loyalty and vitality."
   },
   {
@@ -1049,49 +1049,49 @@
     "code": "BAAAAAA",
     "codeIndex": 2111111,
     "id": 97,
-    "name": "italian greyhound",
+    "name": "greyhound",
     "description": "Italian Greyhound, a graceful and affectionate dog breed with a sweet nature. They are suitable for a small apartment. Italian Greyhounds have a low to moderate activity level, minimal barking, and are generally suitable for families with children. Grooming is consistent, making them suitable for novice owners."
   },
   {
     "code": "BAAAAAB",
     "codeIndex": 2111112,
     "id": 98,
-    "name": "scottish deerhound",
+    "name": "deerhound",
     "description": "Scottish Deerhound, a gentle and dignified dog breed with a friendly nature. They are less affectionate, making them suitable for a house with a yard. Scottish Deerhounds have a low to moderate activity level, minimal barking, and are generally suitable for families with children when well-socialized. Grooming is consistent, but they are better suited for experienced owners."
   },
   {
     "code": "BAAAABA",
     "codeIndex": 2111121,
     "id": 99,
-    "name": "scottish deerhound",
+    "name": "deerhound",
     "description": "Scottish Deerhound, a gentle and dignified dog breed with a friendly nature. They are less affectionate, making them suitable for a house with a yard. Scottish Deerhounds have a low to moderate activity level, minimal barking, and are generally suitable for families with children when well-socialized. Grooming is consistent, but they are better suited for experienced owners."
   },
   {
     "code": "BAAAABB",
     "codeIndex": 2111122,
     "id": 100,
-    "name": "great dane",
+    "name": "dane",
     "description": "Great Dane, a gentle giant and affectionate dog breed with a calm demeanor. Great Danes are less affectionate, making them suitable for a house with a yard. They have a low to moderate activity level, minimal barking, and are generally suitable for families with children when well-socialized. Grooming is low maintenance, but they are better suited for experienced owners."
   },
   {
     "code": "BAAABAA",
     "codeIndex": 2111211,
     "id": 101,
-    "name": "great dane",
+    "name": "dane",
     "description": "Great Dane, a gentle giant and affectionate dog breed with a calm demeanor. Great Danes are less affectionate, making them suitable for a house with a yard. They have a low to moderate activity level, minimal barking, and are generally suitable for families with children when well-socialized. Grooming is low maintenance, but they are better suited for experienced owners."
   },
   {
     "code": "BAAABAB",
     "codeIndex": 2111212,
     "id": 102,
-    "name": "great dane",
+    "name": "dane",
     "description": "Great Dane, a gentle giant and affectionate dog breed with a calm demeanor. Great Danes are less affectionate, making them suitable for a house with a yard. They have a low to moderate activity level, minimal barking, and are generally suitable for families with children when well-socialized. Grooming is low maintenance, but they are better suited for experienced owners."
   },
   {
     "code": "BAAABBA",
     "codeIndex": 2111221,
     "id": 103,
-    "name": "great dane",
+    "name": "dane",
     "description": "Great Dane, a gentle giant and affectionate dog breed with a calm demeanor. Great Danes are less affectionate, making them suitable for a house with a yard. They have a low to moderate activity level, minimal barking, and are generally suitable for families with children when well-socialized. Grooming is low maintenance, but they are better suited for experienced owners."
   },
   {
@@ -1459,7 +1459,7 @@
       "otterhound",
       "german pointer",
       "chesapeake retriever",
-      "rhodesian ridgeback",
+      "ridgeback",
       "rottweiler",
       "saluki",
       "giant schnauzer",
@@ -1526,7 +1526,7 @@
       "otterhound",
       "german pointer",
       "chesapeake retriever",
-      "rhodesian ridgeback",
+      "ridgeback",
       "rottweiler",
       "saluki",
       "giant schnauzer",
@@ -1598,7 +1598,7 @@
     "id": 158,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1613,7 +1613,7 @@
     "id": 159,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1628,7 +1628,7 @@
     "id": 160,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1643,7 +1643,7 @@
     "id": 161,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1658,7 +1658,7 @@
     "id": 162,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1673,7 +1673,7 @@
     "id": 163,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1688,7 +1688,7 @@
     "id": 164,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1703,7 +1703,7 @@
     "id": 165,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1718,7 +1718,7 @@
     "id": 166,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1733,7 +1733,7 @@
     "id": 167,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1748,7 +1748,7 @@
     "id": 168,
     "name": [
       "afghan hound",
-      "caucasian ovcharka",
+      "ovcharka",
       "westhighland terrier"
     ],
     "description": [
@@ -1763,7 +1763,7 @@
     "id": 169,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1782,7 +1782,7 @@
     "id": 170,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1801,7 +1801,7 @@
     "id": 171,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1820,7 +1820,7 @@
     "id": 172,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1839,7 +1839,7 @@
     "id": 173,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1858,7 +1858,7 @@
     "id": 174,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1877,7 +1877,7 @@
     "id": 175,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1896,7 +1896,7 @@
     "id": 176,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1915,7 +1915,7 @@
     "id": 177,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1934,7 +1934,7 @@
     "id": 178,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1953,7 +1953,7 @@
     "id": 179,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1972,7 +1972,7 @@
     "id": 180,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -1991,7 +1991,7 @@
     "id": 181,
     "name": [
       "airedale",
-      "finnish lapphund",
+      "finnish",
       "malinois",
       "redbone",
       "sealyham terrier"
@@ -2008,217 +2008,217 @@
     "code": "BBBBBAB",
     "codeIndex": 2222212,
     "id": 182,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBBBBA",
     "codeIndex": 2222221,
     "id": 183,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBBBBB",
     "codeIndex": 2222222,
     "id": 184,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCAAA",
     "codeIndex": 2223111,
     "id": 185,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCAAB",
     "codeIndex": 2223112,
     "id": 186,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCABA",
     "codeIndex": 2223121,
     "id": 187,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCABB",
     "codeIndex": 2223122,
     "id": 188,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCBAA",
     "codeIndex": 2223211,
     "id": 189,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCBAB",
     "codeIndex": 2223212,
     "id": 190,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCBBA",
     "codeIndex": 2223221,
     "id": 191,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "BBBCBBB",
     "codeIndex": 2223222,
     "id": 192,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAAAAA",
     "codeIndex": 3111111,
     "id": 193,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAAAAB",
     "codeIndex": 3111112,
     "id": 194,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAAABA",
     "codeIndex": 3111121,
     "id": 195,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAAABB",
     "codeIndex": 3111122,
     "id": 196,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAABAA",
     "codeIndex": 3111211,
     "id": 197,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAABAB",
     "codeIndex": 3111212,
     "id": 198,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAABBA",
     "codeIndex": 3111221,
     "id": 199,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAAABBB",
     "codeIndex": 3111222,
     "id": 200,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABAAA",
     "codeIndex": 3112111,
     "id": 201,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABAAB",
     "codeIndex": 3112112,
     "id": 202,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABABA",
     "codeIndex": 3112121,
     "id": 203,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABABB",
     "codeIndex": 3112122,
     "id": 204,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABBAA",
     "codeIndex": 3112211,
     "id": 205,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABBAB",
     "codeIndex": 3112212,
     "id": 206,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABBBA",
     "codeIndex": 3112221,
     "id": 207,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAABBBB",
     "codeIndex": 3112222,
     "id": 208,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAACAAA",
     "codeIndex": 3113111,
     "id": 209,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAACAAB",
     "codeIndex": 3113112,
     "id": 210,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAACABA",
     "codeIndex": 3113121,
     "id": 211,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {
     "code": "CAACABB",
     "codeIndex": 3113122,
     "id": 212,
-    "name": "norwegian elkhound",
+    "name": "elkhound",
     "description": "Norwegian Elkhound, a strong and resilient dog breed with a friendly demeanor. They are affectionate companions, thrive in a house with a yard, and require a lot of outdoor activity. Norwegian Elkhounds may be naturally vocal but are generally suitable for families with children, especially when well-socialized."
   },
   {

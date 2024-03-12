@@ -17,4 +17,6 @@ export function nextQuestion() {
         return false;
     }
 }
- 
+export function resetSelectedAnswersStr() {
+    selectedAnswersStr = "";
+}

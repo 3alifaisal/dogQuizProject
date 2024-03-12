@@ -1,8 +1,8 @@
-import { uniqueDogSet } from "./images.js"
+
 import { originalImages } from "./images.js";
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
-const alreadyResetDogs = new Set()
+let alreadyResetDogs = new Set()
 
 export const resetImages = (count) =>{
   
@@ -51,4 +51,8 @@ async function updateEachImage(canvas,image) {
     
      
   
+}
+
+function emptytheResetImagesSet() {
+    alreadyResetDogs = new Set()
 }

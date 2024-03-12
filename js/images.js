@@ -1,70 +1,72 @@
-export const uniqueDogSet = new Set();
-export const originalImages = []
+
+export let originalImages = []
 // Function to fetch a single random image
-const fetchRandomImage = async () => {
-    const response = await fetch("https://dog.ceo/api/breeds/image/random");
-    return response.json();
+const fetchRandomImages = async (count=44) => {
+    const response = await fetch(`https://dog.ceo/api/breeds/image/random/${count}`);
+   const data = await response.json();
+ return data;
 };
 
 // Function to create an image element from the data and append it to the DOM
-const createAndAppendImage = (data, index) => {
-  
+export const loadAndAppendImages = async () => {
+    const imageDataObj = await fetchRandomImages();
+    const messageKeyArr = imageDataObj.message
+    let messageKeyArrUnique = returnUniqueArr(messageKeyArr);
+    if(messageKeyArr.length !== messageKeyArrUnique.length){
+        while(messageKeyArrUnique.length !== messageKeyArr.length){ //which is 44
+            let newImageDataObj = await fetchRandomImages(messageKeyArr.length - messageKeyArrUnique.length)
+            let newMessageKeyArr = newImageDataObj.message
+            let newMessageKeyArrUnique = returnUniqueArr(newMessageKeyArr);
+            messageKeyArrUnique.push(newMessageKeyArrUnique);
+            // check again 
+            let messageKeyArrUnique = returnUniqueArr(messageKeyArrUnique);
+        }
+    }
+   
+    messageKeyArrUnique.forEach((imgAPI,index) => {
+
+   
     const image = new Image();
-    image.src = data.message;
+    image.src = imgAPI;
    
     originalImages.push(image);
     const imageWrappers = document.querySelectorAll("figure");
-    const pixelCanvas = document.createElement("canvas");
-    imageWrappers[index].appendChild(pixelCanvas);
+    const pixelCanvas = imageWrappers[index].querySelector("canvas")
+   
     imageWrappers[index].style.setProperty('--before-opacity', "1")
    
 
     const pixelCanvasContext = pixelCanvas.getContext('2d');
+    pixelCanvasContext.clearRect(0, 0, pixelCanvas.width, pixelCanvas.height);
     pixelCanvas.width = 15;
     pixelCanvas.height = 15;
 
-    // Use image.onload as needed
     image.onload = () => {
         pixelCanvasContext.drawImage(image, 0, 0, pixelCanvas.width, pixelCanvas.height);
    
     };
 
-    // Use image.onerror as needed
+
     image.onerror = (error) => {
         console.error("Error loading image:", error);
     };
+    });
 };
 
-// Function to load random images concurrently with uniqueness check
-export const loadRandomImagesConcurrently = async (count = 44) => {
-    try {
-   
+export function resetOriginalImages() {
+    originalImages = [];
+}
 
-        // Map to store unique dog requests and their indices
-       
-
-        // Array to store promises for each image loading operation
-        const imagePromises = Array.from({ length: count }, async () => {
-            let res;
-            do {
-                // Fetch a random image
-                res = await fetchRandomImage();
-            } while (uniqueDogSet.has(JSON.stringify(res)));
-
-            // Add the dog request to the map with its index
-            uniqueDogSet.add(JSON.stringify(res));
-
-            return res;
-        });
-
-        // Wait for all fetch operations to complete
-        const imageDataArray = await Promise.all(imagePromises);
-
-        // Create and append images to the DOM
-        imageDataArray.forEach((data,index) => createAndAppendImage(data, index));
-    } catch (error) {
-        console.error("Error loading images:", error);
+function returnUniqueArr(arr) {
+    let uniqueImages = new Set();
+    let uniqueArrayImages= []
+    for(let i = 0; i < arr.length; i++) {
+        if(uniqueImages.has(arr[i])){
+            continue;
+        }
+        uniqueImages.add(arr[i]);
+        uniqueArrayImages.push(arr[i])
+ 
     }
-};
-console.log(uniqueDogSet)
-console.log(originalImages)
+    return uniqueArrayImages;
+}
