@@ -2,9 +2,20 @@
 export let originalImages = []
 // Function to fetch a single random image
 const fetchRandomImages = async (count=44) => {
+try{
     const response = await fetch(`https://dog.ceo/api/breeds/image/random/${count}`);
    const data = await response.json();
+ 
+    //handling api failing to load image 
+    if(data.status === "error"){
+        fetchRandomImages()
+        return;
+    }
  return data;
+} catch(e){
+    console.error('error loading images');
+    alert("failed to load images, Check your internet connection and try again")
+}
 };
 
 // Function to create an image element from the data and append it to the DOM
@@ -19,7 +30,7 @@ export const loadAndAppendImages = async () => {
             let newMessageKeyArrUnique = returnUniqueArr(newMessageKeyArr);
             messageKeyArrUnique.push(newMessageKeyArrUnique);
             // check again 
-            let messageKeyArrUnique = returnUniqueArr(messageKeyArrUnique);
+            messageKeyArrUnique = returnUniqueArr(messageKeyArrUnique);
         }
     }
    
@@ -70,3 +81,4 @@ function returnUniqueArr(arr) {
     }
     return uniqueArrayImages;
 }
+

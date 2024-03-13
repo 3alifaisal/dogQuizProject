@@ -1,0 +1,29 @@
+footer{
+        font-family: 'Pixelify Sans', sans-serif;
+            margin: 40px 10px 10px 10px;
+         
+            font-size: 20px;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            height: 70px;
+            padding-bottom: 30px;
+            width: auto;
+           
+         
+}
+
+footer a {
+
+
+    border-width: 4px 8px 12px 6px;
+    height: fit-content;
+    
+    /* top right bottom left */
+    padding: 10px;
+    margin-left: 5px;
+    border-style: dashed;
+    border-color: #000000;
+
+}
+

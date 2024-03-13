@@ -5,27 +5,27 @@ export async function getMatchingCombinationObj(str) {
 
     const response = await fetch('data/dogCombinations.json')
     const possibleCombinations = await response.json();
-    console.log(possibleCombinations)
+ 
     const selectedStrCodeIndex = findCodeIndex(str);
-    console.log(selectedStrCodeIndex)
+  
     let combinationObjectInd =  binarySearch(possibleCombinations,selectedStrCodeIndex)
-    console.log(combinationObjectInd)
+  
     const combinationObject = possibleCombinations[combinationObjectInd];
-    console.log(combinationObject)
+  
 if(Array.isArray(combinationObject.name)){
   
-    let urlArray = await Promise.all(combinationObject.name.map((dog) => {
-    let url = findDogAPIUrl(dog.toLowerCase());
-    return fetchUrl(url)
+    let urlArrayOfAllDogs = await Promise.all(combinationObject.name.map((dog) => {
+    let urlArrayOfCurrentDog = findDogAPIUrl(dog.toLowerCase());
+    return fetchUrl(urlArrayOfCurrentDog);
    
 }))
-    combinationObject["url"] = urlArray;
+    combinationObject["url"] = urlArrayOfAllDogs;
     } else {
         let dog  = combinationObject.name;
-        let url = findDogAPIUrl(dog.toLowerCase());
-       combinationObject["url"] = await fetchUrl(url)
+        let urlArrayOfCurrentDog = findDogAPIUrl(dog.toLowerCase());
+       combinationObject["url"] = await fetchUrl(urlArrayOfCurrentDog)
     }
-    console.log(combinationObject)
+   
 return combinationObject;
 }
 
@@ -70,21 +70,21 @@ function findDogAPIUrl(dogName){
    
     let splittedName = dogName.split(" ");
     let nameLength = splittedName.length;
-    let apiUrl;
+    let apiUrlArray;
     switch(nameLength){
         case 1: 
-            apiUrl = `https://dog.ceo/api/breed/${dogName}/images/random`;
+            apiUrlArray = `https://dog.ceo/api/breed/${dogName}/images`;
             break;
         case 2:
             let subBreed = splittedName[0];
             let breed = splittedName[1];
-            apiUrl = `https://dog.ceo/api/breed/${breed}/${subBreed}/images/random`;
+            apiUrlArray = `https://dog.ceo/api/breed/${breed}/${subBreed}/images`;
             break;
         default:
            console.error("Invalid length for name");
     }
-    console.log(apiUrl);
-    return apiUrl;
+
+    return apiUrlArray;
 }
 
 

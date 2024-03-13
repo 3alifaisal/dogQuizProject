@@ -1,0 +1,100 @@
+/* styles for last Template  */
+.quiz_window p.lastTemplate {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.quiz_window h2.lastTemplate{
+    font-size: 20px;
+    margin-top: 5px;
+    border-width: 2px 4px 6px 3px;
+    padding: 3px;
+    display: inline;
+    text-align: center;
+
+}
+.quiz_window figure.lastTemplate {
+    margin-top: -10px;
+    height: 15.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "   .    img img img img    .   "
+                         "prevDog img img img img nextDog"
+                         "   .    img img img img    .   "
+                         "prevImg img img img img nextImg"
+                         "   .    img img img img    .   ";
+   
+                        
+
+}
+
+.quiz_window figure img.lastTemplate {
+    grid-area: img;
+    align-self: center;
+    height: 16rem;
+    border:3px solid black
+ 
+}
+.quiz_window figure button{
+    font-size: 14px;
+    padding: 3px;
+    margin: 10px 8px 0 8px;
+    width: fit-content;
+    z-index: 1;
+    border-width: 2px 4px 6px 3px;
+    border-style:dashed;   
+    border-color: #111112;
+
+}
+.quiz_window figure button.nextImage{
+    grid-area: nextImg;
+    justify-self: end;
+  
+}
+.quiz_window figure button.prevImage{
+    grid-area: prevImg;
+    justify-self: start;
+}
+.quiz_window figure button.nextDog{
+    grid-area: nextDog;
+    justify-self: end;
+}
+.quiz_window figure button.prevDog{
+    grid-area: prevDog;
+   justify-self: start;
+}
+
+.quiz_window figure button:hover{
+    animation:button-border-small 1s ease-in-out;
+    border-width: 2px 4px 6px 3px;
+}
+
+@keyframes button-border-small {
+    0% {
+        border-width: 2px 4px 6px 3px;
+    }
+
+    25% {
+        border-width: 4px 6px 3px 2px;
+    }
+
+    50% {
+        border-width: 6px 3px 2px 4px;
+    }
+
+    75% {
+        border-width: 3px 2px 4px 6px;
+    }
+
+    100% {
+        border-width: 2px 4px 6px 3px;
+    }
+}
+
+.quiz_window button.restartGame{
+    font-size: 20px;
+ 
+}
+
+.quiz_window button.restartGame:hover {
+        animation: button-border-small 1s ease-in-out;
+}
