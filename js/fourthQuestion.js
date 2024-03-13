@@ -31,7 +31,7 @@ export function fourthQuestionTemplate() {
     newbutton.addEventListener("click", () => {
         if (nextQuestion()) {
             resetImages(6);
-            fifthQuestionTemplate()
+            fifthQuestionTemplate();
         }
     })
 }

@@ -24,7 +24,7 @@ header span {
         border-width: 0px 8px 12px 6px;
         /* top right bottom left */
         padding: 0 20px;
-        margin-left:3px ;
+        margin-left:5px ;
         border-style: dashed;
         border-color: #000000;
    
@@ -38,5 +38,5 @@ header h1::before{
 }
 header h1::after{
     margin-left: 40px;
-    margin-right: 10px;
+    margin-right: 5px;
 }

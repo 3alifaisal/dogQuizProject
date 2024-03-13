@@ -53,6 +53,6 @@ async function updateEachImage(canvas,image) {
   
 }
 
-function emptytheResetImagesSet() {
+export function emptytheResetImagesSet() {
     alreadyResetDogs = new Set()
 }

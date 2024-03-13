@@ -7,7 +7,7 @@ export  function secondQuestionTemplate() {
     const quizWindow = document.querySelector("main section.quiz_window");
     quizWindow.innerHTML = `
     <h2>Question 2</h2>
-    <p>Living space I have :</p>
+    <p>Living space you have :</p>
     
     <label>
         <input type="radio" name="question" value="A">
@@ -27,7 +27,7 @@ export  function secondQuestionTemplate() {
 
     newbutton.addEventListener("click",()=>{
         if(nextQuestion()){
-            resetImages(6);
+            resetImages(7);
             thirdQuestionTemplate();
         }
     })

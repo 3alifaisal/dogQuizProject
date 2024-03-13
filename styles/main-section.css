@@ -28,7 +28,7 @@ main .overlay{
 
 main figure{
     position: relative;
-    background-color: rgb(255, 255, 255);
+  
     height: 8rem;
     --before-opacity: 0;
 }
