@@ -23,7 +23,7 @@ if(Array.isArray(combinationObject.name)){
     } else {
         let dog  = combinationObject.name;
         let urlArrayOfCurrentDog = findDogAPIUrl(dog.toLowerCase());
-       combinationObject["url"] = await fetchUrl(urlArrayOfCurrentDog)
+       combinationObject["url"] = [await fetchUrl(urlArrayOfCurrentDog)]
     }
    
 return combinationObject;
@@ -90,7 +90,7 @@ function findDogAPIUrl(dogName){
 
 async function fetchUrl(url) {
     try {
-        console.log(url)
+        
         const response = await fetch(url)
         const data = await response.json();
         const responseUrl = data.message;

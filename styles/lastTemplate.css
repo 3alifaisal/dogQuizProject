@@ -65,7 +65,7 @@
 
 .quiz_window figure button:hover{
     animation:button-border-small 1s ease-in-out;
-    border-width: 2px 4px 6px 3px;
+  
 }
 
 @keyframes button-border-small {
@@ -91,6 +91,7 @@
 }
 
 .quiz_window button.restartGame{
+    border-width: 2px 4px 6px 3px;
     font-size: 20px;
  
 }
